@@ -11,7 +11,7 @@ services:
     env: python
     region: singapore
     buildCommand: "./build.sh"
-    startCommand: 'gunicorn vdi_task.wsgi:application'
+    startCommand: 'gunicorn PythonProject.wsgi:application'
     plan: free
     branch: main
     healthCheckPath: /
