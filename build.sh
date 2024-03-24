@@ -1,4 +1,4 @@
-#!\Users\crewstaff\PycharmProjects\vdi_task\pythonProject\.env bash
+C:\Users\crewstaff\PycharmProjects\vdi_task\pythonProject\.env bash
 # exit on error
 set -o errexit
 
