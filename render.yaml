@@ -10,8 +10,8 @@ services:
     name: django_render
     env: python
     region: singapore
-    buildCommand: './build.sh'
-    startCommand: 'gunicorn mysite.wsgi:application'
+    buildCommand: ""./build.sh"
+    startCommand: 'gunicorn PycharmProjects.wsgi:application'
     plan: free
     branch: main
     healthCheckPath: /

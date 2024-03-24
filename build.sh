@@ -1,8 +1,8 @@
-#!/Users/crewstaff/PycharmProjects/vdi_task/pythonProject/.env bash
+#!C:/Users/crewstaff/PycharmProjects/vdi_task/pythonProject/.env bash
 # exit on error
 set -o errexit
 
-pip install requirements.txt
+pip install -r requirements.txt
 
 python manage.py collectstatic --no-input
 python manage.py migrate
